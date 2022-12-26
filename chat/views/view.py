@@ -8,4 +8,4 @@ class VView(ViewSet):
         return response_data(hw)
     
     def index(request):
-        return render(request, "chat/index.html")
+        return render(request, 'chat/index.html')
