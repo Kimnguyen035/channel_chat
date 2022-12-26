@@ -3,7 +3,7 @@ from .views.views import *
 
 all_url = {
     'test': [
-        path('index', VView.as_view({'get':'hello_world'})),    
+        path('hello_world', VView.as_view({'get':'hello_world'})),    
     ],
 }
 

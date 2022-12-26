@@ -1,5 +1,5 @@
 from rest_framework.response import Response
-from configs.variabel_respone import *
+from configs.variable_respone import *
 from django.http import JsonResponse
 from math import ceil
 
