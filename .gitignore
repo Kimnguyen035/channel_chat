@@ -1,0 +1,11 @@
+chat/__pycache__/
+chat/models/__pycache__/
+#chat/serializers/__pycache__/
+chat/views/__pycache__/
+#chat/validations/__pycache__/
+#chat/mails/__pycache__/
+helpers/__pycache__/
+#middleware/__pycache__/
+configs/__pycache__/
+chennal_chat/__pycache__/
+venv/
