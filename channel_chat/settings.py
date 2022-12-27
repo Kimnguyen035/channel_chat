@@ -31,8 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'channels',
-    'selenium',
     'daphne',
     'chat',
     'django.contrib.admin',
@@ -42,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    
+    'channels',
+    'selenium',
 ]
 
 MIDDLEWARE = [
