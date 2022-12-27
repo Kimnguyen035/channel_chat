@@ -1,10 +1,10 @@
 from django.urls import path
-from .views.view import *
+from .views.room_view import RoomView
 
 all_url = {
     'test': [
-        path('', VView.index, name='index'),
-        path('chat/<str:room_name>/', VView.room, name='room'),
+        path('', RoomView.index, name='index'),
+        path('chat/<str:room_name>/', RoomView.room, name='room'),
     ],
 }
 
